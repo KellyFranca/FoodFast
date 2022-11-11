@@ -7,11 +7,12 @@
     tools:context=".MenuBottonNav_MainActivity">
 
     <FrameLayout
+        android:id="@+id/idContainer"
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/idbottomNav"
-        android:background="#956C30"
-        >
+        android:background="#956C30">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/idbottomNav"
