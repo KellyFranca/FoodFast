@@ -26,17 +26,13 @@ public class PorcoesFragment extends Fragment {
         btnEscolha = view.findViewById(R.id.btnEscolha);
 
         btnEscolha.setOnClickListener(new View.OnClickListener(){
-
           @Override
                   public void  onClick(View view){
                 String nome = edtPorcoes.getText().toString();
-              Toast.makeText(getContext(),
+                Toast.makeText(getContext(),
                        "Você escolheu " + nome,
                         Toast.LENGTH_SHORT).show();
-
-
           }
-
       });
 
 
